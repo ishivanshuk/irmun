@@ -1,0 +1,266 @@
+.footer-container {
+  background-color: #001540;
+  padding: 4rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+hr{
+  width: 90%;
+  border: 1px solid rgb(188, 212, 226);
+  margin-bottom: 4px;
+  position: absolute;
+  left:20px;
+ 
+  
+}
+
+
+.logofooter{
+  max-width: 100;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  
+
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin-bottom: 24px;
+  padding: 24px;
+  color: #fff;
+}
+
+.footer-section > p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.footer-heading {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+
+
+.footer-input {
+  padding: 8px 20px;
+  border-radius: 2px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border: 1px solid #fff;
+}
+
+.footer-links {
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.footer-link-wrapper {
+  display: flex;
+}
+
+.footer-link-items {
+  display: flex;
+  flex-direction: column;
+  
+  margin: 16px;
+  text-align: center;
+  
+  box-sizing: content-box;
+  overflow: hidden;
+}
+
+.footer-link-items h2 {
+  margin-bottom: 16px;
+}
+
+.footer-link-items > h2 {
+  color: #fff;
+}
+
+.footer-link-items a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer-link-items a:hover {
+  color: #a4b0b1;
+  transition: 0.3s ease-out;
+}
+
+.footer-email-form h2 {
+  margin-bottom: 2rem;
+}
+
+.footer-input::placeholder {
+  color: #b1b1b1;
+}
+
+/* Social Icons */
+.social-icon-link {
+  color: #fff;
+  font-size: 24px;
+}
+
+.social-media {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.social-media-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+  margin-right: 80px;
+}
+
+.social-logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.website-rights {
+  color: #fff;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.fa-facebook-f {
+  
+  padding: 2px;
+ 
+  border-radius:2px;
+ 
+}
+
+.fa-discord {
+  
+  padding: 2px;
+  font-size: 1cm;
+  color: #fff;
+  border-radius:2px;
+ 
+}
+
+.fa-discord:hover{
+  
+  padding: 2px;
+  font-size: 1cm;
+  color: rgb(191, 196, 255);
+  border-radius:2px;
+  
+ 
+}
+
+.fa-facebook-f:hover {
+  color: #3b5998;
+  background-color: white;
+  padding: 2px;
+  transition: 0.2s linear;
+  border-radius:2px;
+ 
+}
+
+.fa-instagram:hover {
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+transition: 0.2s linear;
+border-radius:4px;
+ 
+}
+
+.discord-link{
+  text-decoration: none;
+}
+
+.fa-youtube {
+  padding:0px;
+  margin: 0px;
+ 
+}
+
+
+.fa-youtube:hover {
+  color: #b60707; 
+  
+  border-radius:4px;
+  transition: 0.2s linear;
+ 
+}
+.fa-twitter:hover {
+  color: #5a73e4; 
+  background: white;
+  border-radius:4px;
+  transition: 0.2s linear;
+ 
+}
+@media screen and (max-width: 820px) {
+  .footer-links {
+    padding-top: 2rem;
+  }
+
+  .footer-input {
+    width: 100%;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+    margin-right: 0px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .footer-link-wrapper {
+    flex-direction: column;
+   
+  }
+
+  .social-media-wrap {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+}
